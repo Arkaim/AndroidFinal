@@ -6,8 +6,7 @@ import android.os.Parcel
 import android.os.Parcelable
 
 @Entity (tableName = "contact_group")
-class ContactGroup {
-    data class ContactGroup(@PrimaryKey
+data class ContactGroup(@PrimaryKey
                             var id: Int,
                             var name: String,
                             var priority: String) : Parcelable {

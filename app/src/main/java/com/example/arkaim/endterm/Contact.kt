@@ -8,8 +8,7 @@ import android.os.Parcelable
 import java.io.File
 
 @Entity(tableName = "contacts")
-class Contact {
-    data class Contact(@PrimaryKey
+data class Contact(@PrimaryKey
                        var id: Int,
                        var name: String,
                        var mobileNumber: String,

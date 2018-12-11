@@ -20,7 +20,6 @@ class ContactsAdapter (var context: Context, var dataset: ArrayList<Contact>) : 
         var contact = dataset[p1]
 
         p0.itemView.name.text = contact.name
-        p0.itemView.group_name.text = contact.contactGroup
     }
     inner  class  ContactsViewHolder(view: View): RecyclerView.ViewHolder(view)
 }
